@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* YOUR CSS GOES HERE */
+        body{
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        #main-header{
+            background-color: azure;
+            text-align: center;
+            padding: 25px;
+        }
+        h1{
+            font-size: 30px;
+        }
+        /* Part 3 heading styles */
+        h2{
+            color: rgb(16, 40, 225);
+        }
+        nav ul{
+           display: flex;
+           list-style: none;
+           gap: 20px;
+
+           justify-content: center;
+           padding: 0;
+        }
+        /* Part 4 Nav with flexbox */
+        nav ul{
+            display: flex;
+            list-style-type: none;
+        }
+        /* Part 5 Card styling */
+        .card{
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        /* Part 6 Link Styling*/
+        a{
+            color: rgb(10, 129, 53);
+        }
+        footer{
+            background-color: rgb(206, 253, 255);
+        }
+
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Sibusiso Mbenenge</h1>
+        <p>Student ID: 2563043</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="card" id="about">
+            <h2>About Me</h2>
+            <p>I am a final year Computer Science student passionate about cyber security, web development, software engineering, and creating accessible and secure digital solutions.</p>
+            <p>My academic focus includes cybersecurity principles, network security, and secure software development practices. I'm also exploring front-end web technologies to build accessible and secure web applications.</p>
+            <p>I hope to do achieve great things in my Software Design Course.</p>
+
+        </section>
+
+        <article class="card" id="projects">
+            <h2>Latest Project</h2>
+            <p>I am working on a gym website that will provide information about training scchedules and plans while enabling interested customers to join through the use of my simple semantic HTML5 website</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sibusiso 2563043. All rights reserved.</p>
+    </footer>
+</body>
+</html>
